@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Có Nút !!!</title>
+    <style>
+        body, html {
+            height: 50%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .big-button {
+            padding: 100px 400px;
+            font-size: 24px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease;
+        }
+        .big-button:active {
+            box-shadow: 0 0 12px 5px rgba(0, 123, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="big-button" onclick="redirectToLink()">Ấn đây nhé mấy con chóa 😉😉😉</button>
+    </div>
+
+    <script>
+        function redirectToLink() {
+            window.location.href = "https://www.youtube.com/watch?v=nvGutFqpnq8"; // Thay thế bằng liên kết của bạn
+        }
+    </script>
+</body>
+</html>
